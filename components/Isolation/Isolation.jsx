@@ -6,20 +6,20 @@ export default function Isolation() {
   return (
     <section className={styles.container}>
       <h1 className={styles.title}>
-        Isolation des combles à Nantes et en Loire-Atlantique : améliorez votre confort thermique avec Elite Couverture
+        Isolation des combles à Perpignan dans les Pyrénées-Orientales : améliorez votre confort thermique avec Elite Couverture
       </h1>
 
       <p className={styles.intro}>
         L’isolation des combles est l’une des étapes les plus efficaces pour optimiser les performances énergétiques 
-        d’un logement. Chez <strong>Elite Couverture</strong>, nous intervenons à Nantes et partout en 
-        Loire-Atlantique pour vous proposer des solutions sur mesure, durables et respectueuses de l’environnement.
+        d’un logement. Chez <strong>Elite Couverture</strong>, nous intervenons à Perpignan et partout en 
+        Pyrénées-Orientales pour vous proposer des solutions sur mesure, durables et respectueuses de l’environnement.
         Grâce à notre expertise, vous réduisez vos pertes de chaleur, améliorez votre confort de vie 
         et réalisez d’importantes économies d’énergie.
       </p>
 
       <SectionImage
         src="/image7.avif"
-        alt="Isolation des combles par un artisan couvreur à Nantes, en Loire-Atlantique"
+        alt="Isolation des combles par un artisan couvreur à Perpignan, Pyrénées-Orientales"
       />
 
       <h2 className={styles.h2}>Pourquoi isoler vos combles ?</h2>
@@ -62,8 +62,7 @@ export default function Isolation() {
 
       <p className={styles.intro}>
         Confiez l’isolation de vos combles à une entreprise locale de confiance. 
-        <strong>Elite Couverture</strong> intervient rapidement à Nantes, Saint-Nazaire, 
-        Châteaubriant, Pornic et dans tout le département 44. Contactez-nous pour 
+        <strong>Elite Couverture</strong> intervient rapidement à Perpignan et dans tout le département 66. Contactez-nous pour 
         un <strong>diagnostic gratuit et personnalisé</strong>, et transformez votre maison 
         en un véritable cocon thermique, performant et éco-responsable.
       </p>

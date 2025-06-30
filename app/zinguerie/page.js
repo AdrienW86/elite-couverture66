@@ -4,7 +4,7 @@ import styles from '@/app/page.module.css'
 
 export const metadata = {
   title: 'Travaux de zinguerie - Elite Couverture',
-  description: 'Vos gouttières sont trop endommagées ? Faites appel à Elite Couverture pour un remplacement complet à Nantes et dans le 44.',
+  description: 'Vos gouttières sont trop endommagées ? Faites appel à Elite Couverture pour un remplacement complet à Perpignan et dans le 66.',
 };
 
 export default function page() {

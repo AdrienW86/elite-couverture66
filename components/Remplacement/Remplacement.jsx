@@ -6,18 +6,18 @@ export default function Zinguerie() {
   return (
     <section className={styles.container}>
       <h1 className={styles.title}>
-        Travaux de zinguerie à Nantes et en Loire-Atlantique avec Elite Couverture
+        Travaux de zinguerie à Perpignan et dans les Pyrénées-Orientales avec Elite Couverture
       </h1>
 
       <p className={styles.intro}>
-        Spécialiste des travaux de toiture à Nantes et dans tout le département de la Loire-Atlantique (44),
+        Spécialiste des travaux de toiture à Perpignan et dans tout le département des Pyrénées-Orientales (66),
         Elite Couverture vous propose un service complet de zinguerie : pose, rénovation, réparation et entretien 
         de tous vos éléments en zinc. Ces composants sont essentiels à l’étanchéité et à la durabilité de votre toiture.
       </p>
 
       <SectionImage
         src="/image4.avif"
-        alt="Travaux de zinguerie à Nantes - Pose de gouttières et chéneaux"
+        alt="Travaux de zinguerie à Perpignan - Pose de gouttières et chéneaux"
       />
 
       <h2 className={styles.h2}> Inspection et diagnostic de vos éléments de zinguerie</h2>
@@ -37,7 +37,7 @@ export default function Zinguerie() {
 
       <SectionImage
         src="/image14.avif"
-        alt="Pose de zinguerie et gouttières à Nantes en Loire-Atlantique"
+        alt="Pose de zinguerie et gouttières à Perpignan Pyrénées-Orientales"
       />
 
       <h2 className={styles.h2}> Réparation et remplacement de vos éléments en zinc</h2>
@@ -64,7 +64,7 @@ export default function Zinguerie() {
       </p>
 
       <p className={styles.intro}>
-        Faites appel à Elite Couverture pour tous vos travaux de zinguerie à Nantes et dans la Loire-Atlantique.
+        Faites appel à Elite Couverture pour tous vos travaux de zinguerie à Perpignan et dans les Pyrénées-Orientales.
         Grâce à notre savoir-faire artisanal et à l'utilisation de matériaux de qualité, 
         nous assurons une étanchéité parfaite et une esthétique soignée de votre toiture. 
         Contactez-nous pour un devis gratuit ou une intervention rapide !

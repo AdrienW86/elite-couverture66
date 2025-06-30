@@ -6,20 +6,20 @@ export default function Demoussage() {
   return (
     <section className={styles.container}>
       <h1 className={styles.title}>
-        Démoussage de toiture à Nantes et en Loire-Atlantique : redonnez vie à votre toit avec Elite Couverture
+        Démoussage de toiture à Perpignan et dans les Pyrénées-Orientales : redonnez vie à votre toit avec Elite Couverture
       </h1>
 
       <p className={styles.intro}>
         Avec le temps, les toitures sont exposées aux intempéries, à l’humidité et à la pollution, favorisant 
         l’apparition de mousses, de lichens et d’algues. Ces éléments peuvent fragiliser la structure 
         et l’étanchéité de votre toit. Chez <strong>Elite Couverture</strong>, entreprise spécialisée dans 
-        le <strong>démoussage et le nettoyage de toiture à Nantes</strong> et dans toute la Loire-Atlantique (44), 
+        le <strong>démoussage et le nettoyage de toiture à Perpignan</strong> et dans toute les Pyrénées-Orientales (66), 
         nous vous proposons un entretien complet et professionnel pour prolonger la durée de vie de votre couverture.
       </p>
 
       <SectionImage
         src="/image16.avif"
-        alt="Couvreur réalisant un démoussage de toiture à Nantes en Loire-Atlantique"
+        alt="Couvreur réalisant un démoussage de toiture à Perpignan Pyrénées-Orientalese"
       />
 
       <h2 className={styles.h2}>
@@ -64,7 +64,7 @@ export default function Demoussage() {
 
       <p className={styles.intro}>
         Ne laissez pas les mousses fragiliser votre couverture. Confiez le <strong>démoussage de votre toiture 
-        à Nantes ou en Loire-Atlantique</strong> à l’équipe expérimentée d’<strong>Elite Couverture</strong>. 
+        </strong> à l’équipe expérimentée d’<strong>Elite Couverture</strong>. 
         Nous vous garantissons un résultat professionnel, rapide et durable. 
         Contactez-nous dès maintenant pour un <strong>devis gratuit et sans engagement</strong>.
       </p>

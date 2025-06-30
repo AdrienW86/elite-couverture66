@@ -3,8 +3,8 @@ import Form from '@/components/Form/Form'
 import styles from '../page.module.css'
 
 export const metadata = {
-  title: 'Contactez Elite Couverture - Couvreur à Nantes et alentours',
-  description: 'Besoin d’un devis ou d’un renseignement ? Contactez Elite Couverture, artisan couvreur à Nantes, pour tous vos projets de toiture dans la Loire-Atlantique.',
+  title: 'Contactez Elite Couverture - Couvreur à Perpignan et alentours',
+  description: 'Besoin d’un devis ou d’un renseignement ? Contactez Elite Couverture, artisan couvreur à Perpignan, pour tous vos projets de toiture dans les Pyrénées-Orientales.',
 };
 
 export default function Contact() {

@@ -6,7 +6,7 @@ export default function About() {
     <section className={styles.container}>
         <h1 className={styles.title}>Qui sommes-nous ?</h1>
         <p className={styles.intro}>
-          Basée en Loire-Atlantique, Elite Couverture est une entreprise artisanale spécialisée 
+          Basée au coeur des Pyrénées-Orientales, Elite Couverture est une entreprise artisanale spécialisée 
           dans les travaux de toiture : pose, rénovation, entretien et traitement. Nous mettons 
           à votre service une équipe de couvreurs passionnés et expérimentés, engagés à vous 
           garantir des prestations soignées, durables et adaptées à vos besoins.
@@ -34,7 +34,7 @@ export default function About() {
         </p>
 
         <p className={styles.intro}>
-          Faites confiance à Elite Couverture, votre spécialiste toiture en Loire-Atlantique, 
+          Faites confiance à Elite Couverture, votre spécialiste toiture dans les Pyrénées-Orientales, 
           pour des travaux réalisés dans les règles de l’art, avec professionnalisme et transparence.
         </p>
     </section>

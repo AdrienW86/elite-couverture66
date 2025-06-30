@@ -6,20 +6,20 @@ export default function Nettoyage() {
   return (
     <section className={styles.container}>
       <h1 className={styles.title}>
-        Nettoyage de toiture à Nantes et en Loire-Atlantique : protégez votre toit avec Elite Couverture
+        Nettoyage de toiture à Perpignan et en Pyrénées-Orientales : protégez votre toit avec Elite Couverture
       </h1>
 
       <p className={styles.intro}>
         Au fil des saisons, votre toiture subit les effets des intempéries, de la pollution et de l’humidité, 
         entraînant l’accumulation de mousses, de lichens, d’algues ou encore de débris végétaux. 
         Pour préserver son bon état, son étanchéité et son aspect esthétique, un entretien régulier s’impose. 
-        <strong>Elite Couverture</strong> vous propose un <strong>nettoyage de toiture professionnel à Nantes</strong> 
-        et dans tout le département de la Loire-Atlantique (44), adapté à tous types de toitures.
+        <strong>Elite Couverture</strong> vous propose un <strong>nettoyage de toiture professionnel à Perpignan</strong> 
+        et dans tout le département des Pyrénées-Orientales (66), adapté à tous types de toitures.
       </p>
 
       <SectionImage
         src="/image9.avif"
-        alt="Couvreur réalisant un nettoyage complet de toiture à Nantes"
+        alt="Couvreur réalisant un nettoyage complet de toiture à Perpignan"
       />
 
       <h2 className={styles.h2}>
@@ -64,7 +64,7 @@ export default function Nettoyage() {
 
       <p className={styles.intro}>
         Faites confiance à <strong>Elite Couverture</strong> pour le <strong>nettoyage de votre toiture 
-        à Nantes et en Loire-Atlantique</strong>. Notre équipe qualifiée vous garantit un service 
+        à Perpignan et dans les Pyrénées-Orientales</strong>. Notre équipe qualifiée vous garantit un service 
         professionnel, efficace et respectueux de l’environnement. Contactez-nous dès aujourd’hui 
         pour un <strong>devis gratuit</strong> et redonnez à votre toiture toute sa propreté, 
         sa longévité et sa résistance face aux intempéries.
