@@ -1,0 +1,35 @@
+.container {
+    color: black;
+    background-color: aliceblue;
+}
+
+.title {
+    color: white;
+    padding: 12px;
+    text-align: center;
+    background-color: var(--grey);
+}
+
+.h2 {
+    padding: 12px;
+    color: #E05C4E;  
+    text-decoration: underline;
+    background-color : var(--grey);  
+    
+}
+
+.intro {
+    font-weight: bold;
+    padding: 30px;
+    font-size: 1.2em;
+    color :var(--grey);  
+    border-bottom: 1px solid var(--grey);
+}
+
+.p {
+    font-size: 1.1em;
+    font-weight: lighter;
+    padding: 20px;
+    color: white;
+    background-color : var(--grey);  
+}

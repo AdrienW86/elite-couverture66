@@ -1,0 +1,85 @@
+.form {
+    text-align: center;
+    padding-bottom: 60px;
+    width: 350px;
+    height: 600px;
+    border-radius: 20px;
+    border: 1px solid var(--grey); 
+    background-color: rgb(255, 255, 255);
+}
+
+.h3 {
+    padding: 18px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--red);
+}
+
+.formContent {
+    padding: 22px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input, .textarea {
+    border-radius: 22px;
+    height: 50px;
+    color: black;
+    background-color: #ffffff;
+    border: 1px solid var(--grey);
+    width: 90%;
+    margin: 0 auto 15px auto;
+    padding-left: 20px;
+}
+
+.textarea {
+    padding-top: 20px;
+    height: 200px;
+}
+
+.error {
+    font-size: 0.7em;
+    color: red;
+    position: relative;
+    bottom: 6px;
+    padding-left: 30px;
+}
+
+.submit {
+    height: 50px;
+    width: 220px;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 22px;
+    border: none;
+    color: white;
+    background-color: var(--grey);
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0 70px;
+    font-size: 1.2em;
+    transition: .4s ease-in-out;  
+}
+
+.submit:hover {
+    cursor: pointer;
+    background-color: var(--grey);
+}
+
+.confirm {
+    padding: 30px 16px 
+}
+
+.pConfirm {
+    text-align: center;
+    color: white;
+    padding: 16px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    line-height: 2.2;
+    background-color:var(--grey);
+    border: 2px solid white;
+}
