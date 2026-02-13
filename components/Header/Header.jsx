@@ -11,7 +11,7 @@ import styles from './header.module.css'
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const handleMenuToggle = () => {
-      setIsMenuOpen(!isMenuOpen);
+    setIsMenuOpen(!isMenuOpen);
   };
 
   const { ref: ref1, inView: inView1 } = useInView({ triggerOnce: false, threshold: 0.0 });
@@ -57,7 +57,7 @@ export default function Header() {
           <li> <Link className={styles.li} href="/toiture" onClick={handleMenuToggle}> Travaux de toiture </Link></li>
           <li> <Link className={styles.li} href="/zinguerie" onClick={handleMenuToggle}> Zinguerie </Link></li>
           <li> <Link className={styles.li} href="/savoir-faire" onClick={handleMenuToggle}> Pourquoi nous choisir ? </Link></li>
-          <li> <Link className={styles.li} href="/contact" onClick={handleMenuToggle}> Obtenir un dervis gratuit </Link></li>
+          <li> <Link className={styles.li} href="/contact" onClick={handleMenuToggle}> Obtenir un devis gratuit </Link></li>
         </ul>
       </section>}
     </header>

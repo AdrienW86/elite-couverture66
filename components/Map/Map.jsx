@@ -7,7 +7,7 @@ export default function GoogleMap() {
   const address = {
     name: "Elite Couverture",
     email: "elitecouverture66@gmail.com",
-    phone: "06 28 28 69 67",
+    phone: "07 59 31 12 39",
     fullAddress: "Perpignan et alentours",
   };
 
