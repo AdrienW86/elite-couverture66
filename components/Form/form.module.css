@@ -4,7 +4,7 @@
     width: 350px;
     margin: 20px auto;
     border-radius: 20px;
-    z-index: 11111000;
+    z-index: 2;
     border: 1px solid var(--grey); 
     background-color: rgb(255, 255, 255);
 }

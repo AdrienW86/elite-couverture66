@@ -3,6 +3,7 @@
   flex-direction: column;
   max-width: 120vh;
   margin: auto;
+  margin-top: 150px;
   background-color: white;
 }
 
@@ -11,7 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: white; 
+   background-color: var(--grey);
   text-align: center;
   position: relative; 
 }
@@ -68,7 +69,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: white; 
+   background-color: var(--red);
   text-align: center;
   position: relative; 
   padding-top: 60px;
