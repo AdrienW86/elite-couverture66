@@ -16,7 +16,7 @@ export default function Zinguerie() {
       </p>
 
       <SectionImage
-        src="/image4.avif"
+        src="/zinguerie.png"
         alt="Travaux de zinguerie à Perpignan - Pose de gouttières et chéneaux"
       />
 
