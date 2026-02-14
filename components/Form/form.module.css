@@ -2,9 +2,10 @@
     text-align: center;
     padding-bottom: 60px;
     width: 350px;
-    height: 600px;
+    height: 680px;
     margin: 20px auto;
     border-radius: 20px;
+    z-index: 11111000;
     border: 1px solid var(--grey); 
     background-color: rgb(255, 255, 255);
 }
