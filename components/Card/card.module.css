@@ -1,9 +1,9 @@
 .card {
     width: 100%;
-    background-color: var(--red);
+    background-color: var(--grey);
     color: var(--grey);
     transition: .4s ease-in-out;  
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    
 }
 
 .card:hover {
@@ -13,21 +13,22 @@
 .h3 {
     padding-bottom: 6px;
     text-align: center;
-    color: white;
-    background-color: var(--red);  
+    color: var(--red);
+    background-color: var(--grey);  
 }
 
 .cardTxt {
-   
-   background-color: white;;
-   
+    color: white;
+   background-color: var(--grey)
 }
 
 .image {
  height : auto;
-   width: 100%;
+   width: calc(100% - 2px);
+   border: 1px solid white;
 }
 
 .pCard {
     padding: 20px;
+    text-align: center;
 }

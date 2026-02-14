@@ -1,6 +1,6 @@
 import Banner from '@/components/Banner/Banner'
-import Equipment from '@/components/Equipment/Equipment'
 import Description from '@/components/Description/Description'
+import Form from '@/components/Form/Form';
 import styles from './page.module.css'
 
 export const metadata = {
@@ -12,8 +12,11 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Banner />
-
       <Description />
+      <div className={styles.form}>
+        <Form />
+      </div>
+      
     </main>
   )
 }

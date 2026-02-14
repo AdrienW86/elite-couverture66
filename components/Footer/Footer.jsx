@@ -10,7 +10,7 @@ export default function Footer() {
     <footer className={styles.footer}>
        <div className={styles.container}>
         <Image
-            src="/logo2.png"
+            src="/logo3.png"
             alt="logo"
             width={200}
             height={200}

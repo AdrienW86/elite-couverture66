@@ -3,7 +3,6 @@
 }
 
 .box {
-   
     z-index: 2;
     color: white;
     background-color: var(--grey);
