@@ -30,7 +30,7 @@ export default function Header() {
           exit={{ opacity: 0, x: -100 }}
           transition={{ duration: 0.5 }}
           className={styles.logo}
-          src="/logo3.png"
+          src="/logo.svg"
           alt="logo"
           width={280}
           height={280}
