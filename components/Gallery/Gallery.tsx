@@ -1,65 +1,11 @@
 'use client';
-import React, { useState } from 'react';
+import { useRef, useState } from 'react';
 import Image from 'next/image';
-import styles from './gallery.module.css';
-
+const images = [
+  'Intervention sur une couverture', 'Pose de tuiles en terre cuite', 'Travaux sur un toit', 'Structure en bois', 'Entretien d’une gouttière', 'Travail sur une charpente', 'Isolation sous toiture', 'Détail d’une couverture en tuiles', 'Nettoyage d’une toiture', 'Entretien de tuiles', 'Traitement d’une couverture', 'Entretien au bord du toit', 'Pose d’une couverture', 'Assemblage de tuiles', 'Ossature de charpente', 'Mousses sur une couverture', 'Intervention d’entretien', 'Dépose d’une couverture',
+].map((alt, index) => ({ src: `/image${index + 1}.avif`, alt }));
 export default function Gallery() {
-  const images = [
-    { src: '/image1.avif', alt: 'un ouvrier sur un toit' },
-    { src: '/image2.avif', alt: 'pose de tuiles' },
-    { src: '/image3.avif', alt: 'un ouvrier sur un toit' },
-    { src: '/image4.avif', alt: 'pose de tuiles' },
-    { src: '/image5.avif', alt: 'un ouvrier sur un toit' },
-    { src: '/image6.avif', alt: 'pose de tuiles' },
-    { src: '/image7.avif', alt: 'un ouvrier sur un toit' },
-    { src: '/image8.avif', alt: 'pose de tuiles' },
-    { src: '/image9.avif', alt: 'un ouvrier sur un toit' },
-    { src: '/image10.avif', alt: 'pose de tuiles' },
-    { src: '/image11.avif', alt: 'un ouvrier sur un toit' },
-    { src: '/image12.avif', alt: 'pose de tuiles' },
-    { src: '/image13.avif', alt: 'un ouvrier sur un toit' },
-    { src: '/image14.avif', alt: 'pose de tuiles' },
-    { src: '/image15.avif', alt: 'un ouvrier sur un toit' },
-    { src: '/image16.avif', alt: 'pose de tuiles' },
-    { src: '/image17.avif', alt: 'un ouvrier sur un toit' },
-    { src: '/image18.avif', alt: 'pose de tuiles' },
-  ];
-
-  const [isOpen, setIsOpen] = useState(false);
-  const [currentImage, setCurrentImage] = useState<string | null>(null);
-
-  const openLightbox = (imageSrc: string) => {
-    setCurrentImage(imageSrc);
-    setIsOpen(true);
-  };
-
-  const closeLightbox = () => {
-    setIsOpen(false);
-  };
-
-  return (
-    <div className={styles.container}>
-       <h1 className={styles.h2}>  Nos réalisations </h1>
-      <div className={styles.gallery}>
-        {images.map((image, index) => (
-          <div className={styles.imageWrapper} key={index} onClick={() => openLightbox(image.src)}>
-            <Image
-              src={image.src}
-              alt={image.alt}
-              width={300}
-              height={200}
-              className={styles.image}
-            />
-          </div>
-        ))}
-      </div>
-      {isOpen && currentImage && (
-        <div className={styles.lightboxOverlay} onClick={closeLightbox}>
-          <div className={styles.lightboxContent}>
-            <Image src={currentImage} alt="Vue agrandie de la toiture" width={1400} height={1000} className={styles.lightboxImage} />
-          </div>
-        </div>
-      )}
-    </div>
-  );
+  const dialog = useRef<HTMLDialogElement>(null);
+  const [current, setCurrent] = useState(images[0]);
+  return <><div className="gallery-grid">{images.map((image, index) => <button key={image.src} type="button" aria-label={`Agrandir : ${image.alt}`} onClick={() => { setCurrent(image); dialog.current?.showModal(); }}><Image src={image.src} alt={image.alt} width={600} height={420} sizes="(max-width: 760px) 50vw, 33vw" /><span className="image-note">{String(index + 1).padStart(2, '0')} — {image.alt}</span></button>)}</div><dialog className="gallery-dialog" ref={dialog} aria-label={current.alt} onClick={event => { if (event.target === event.currentTarget) dialog.current?.close(); }}><button type="button" onClick={() => dialog.current?.close()}>Fermer ×</button><Image src={current.src} alt={current.alt} width={1400} height={1000} sizes="95vw" /></dialog></>;
 }

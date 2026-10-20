@@ -1,42 +1,24 @@
-import nodemailer from "nodemailer";
-
-export async function POST(req: Request) {
-    const { name, email, phone, subject, message } = await req.json();
-
-    if (!name || !email || !subject || !message || !phone) {
-        return new Response(JSON.stringify({ message: "INVALID_PARAMETER" }), { status: 400 });
-    }
-
-    const cleanMessage = message
-        .replace(/\n/g, "<br>")
-        .replace(/\r/g, "<br>")
-        .replace(/\t/g, "<br>")
-        .replace(/<(?!br\s*\/?)[^>]+>/g, "");
-
-    const transporter = nodemailer.createTransport({
-        host: process.env.ZOHO_HOST,
-        port: Number(process.env.ZOHO_PORT),
-        secure: true,
-        auth: {
-            user: process.env.EMAIL_MASTER,
-            pass: process.env.ZOHO_APP_PASSWORD,
-        },
-    });
-
-    const mailOptions = {
-        from: `"Elite Couverture" <${process.env.EMAIL_MASTER}>`,
-        to: process.env.EMAIL_CLIENT,
-        subject: `Message de votre site web - ${subject}`,
-        text: `${name} (${email}, ${phone}) vous a contacté.\n\nMessage:\n${message}`,
-        html: `<p>${name} (${email}, ${phone}) vous a contacté.</p><p>Message:</p><p>${cleanMessage}</p>`,
-        replyTo: email
-    };
-
-    try {
-        await transporter.sendMail(mailOptions);
-        return new Response(JSON.stringify({ message: "EMAIL_SENDED_SUCCESSFULLY" }), { status: 200 });
-    } catch (error) {
-        console.error("Error sending email:", error);
-        return new Response(JSON.stringify({ message: "ERROR_WITH_ZOHO" }), { status: 500 });
-    }
-}
+import { Resend } from 'resend';
+import { createContactHandler } from '@/lib/contact/handler';
+import { createRateLimiter } from '@/lib/contact/rate-limit';
+import { emailPattern } from '@/lib/contact/schema';
+import { site } from '@/lib/site';
+const allow = createRateLimiter();
+export const runtime = 'nodejs';
+export const POST = createContactHandler({
+  allow,
+  configured: () => Boolean(process.env.RESEND_API_KEY && process.env.RESEND_FROM && emailPattern.test(process.env.RESEND_FROM)),
+  async send(payload) {
+    const from = process.env.RESEND_FROM;
+    if (!from) return false;
+    const resend = new Resend(process.env.RESEND_API_KEY);
+    const { data, error } = await resend.emails.send({
+      from: `Élite Couverture 66 <${from}>`, to: [site.email],
+      ...(payload.email ? { replyTo: payload.email } : {}),
+      subject: `Demande de devis — ${payload.subject}`,
+      text: [`Nom : ${payload.name}`, `Téléphone : ${payload.phone}`, `E-mail : ${payload.email || 'Non renseigné'}`, `Commune : ${payload.city}`, `Prestation : ${payload.subject}`, '', payload.message].join('\n'),
+    }, { idempotencyKey: `contact/${payload.submissionId}`, signal: AbortSignal.timeout(15_000) });
+    if (error || !data?.id) { console.error('[contact] provider_rejected'); return false; }
+    return true;
+  },
+});

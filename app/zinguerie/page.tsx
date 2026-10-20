@@ -1,18 +1,6 @@
-import type { Metadata } from 'next';
-import Banner from '@/components/Banner/Banner'
-import Remplacement from '@/components/Remplacement/Remplacement'
-import styles from '@/app/page.module.css'
-
-export const metadata: Metadata = {
-  title: 'Travaux de zinguerie - Elite Couverture',
-  description: 'Vos gouttières sont trop endommagées ? Faites appel à Elite Couverture pour un remplacement complet à Perpignan et dans le 66.',
-};
-
-export default function page() {
-  return (
-    <main className={styles.main}>   
-      <Banner />
-      <Remplacement /> 
-    </main>
-  )
-}
+import ServicePage from '@/components/ServicePage/ServicePage';
+import { pageMetadata, services } from '@/lib/site';
+import { serviceContent } from '@/lib/service-content';
+const path = '/zinguerie' as const;
+export const metadata = pageMetadata(services.find(service => service.href === path)?.title + ' à Perpignan', serviceContent[path].description, path);
+export default function Page() { return <ServicePage path={path} />; }

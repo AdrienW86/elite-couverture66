@@ -1,0 +1,1585 @@
+[
+    {
+        "nom":  "L\u0027Albère",
+        "code":  "66001",
+        "codesPostaux":  [
+                             "66480"
+                         ]
+    },
+    {
+        "nom":  "Alénya",
+        "code":  "66002",
+        "codesPostaux":  [
+                             "66200"
+                         ]
+    },
+    {
+        "nom":  "Amélie-les-Bains-Palalda",
+        "code":  "66003",
+        "codesPostaux":  [
+                             "66110"
+                         ]
+    },
+    {
+        "nom":  "Les Angles",
+        "code":  "66004",
+        "codesPostaux":  [
+                             "66210"
+                         ]
+    },
+    {
+        "nom":  "Angoustrine-Villeneuve-des-Escaldes",
+        "code":  "66005",
+        "codesPostaux":  [
+                             "66760"
+                         ]
+    },
+    {
+        "nom":  "Ansignan",
+        "code":  "66006",
+        "codesPostaux":  [
+                             "66220"
+                         ]
+    },
+    {
+        "nom":  "Arboussols",
+        "code":  "66007",
+        "codesPostaux":  [
+                             "66320"
+                         ]
+    },
+    {
+        "nom":  "Argelès-sur-Mer",
+        "code":  "66008",
+        "codesPostaux":  [
+                             "66700"
+                         ]
+    },
+    {
+        "nom":  "Arles-sur-Tech",
+        "code":  "66009",
+        "codesPostaux":  [
+                             "66150"
+                         ]
+    },
+    {
+        "nom":  "Ayguatébia-Talau",
+        "code":  "66010",
+        "codesPostaux":  [
+                             "66360"
+                         ]
+    },
+    {
+        "nom":  "Bages",
+        "code":  "66011",
+        "codesPostaux":  [
+                             "66670"
+                         ]
+    },
+    {
+        "nom":  "Baho",
+        "code":  "66012",
+        "codesPostaux":  [
+                             "66540"
+                         ]
+    },
+    {
+        "nom":  "Baillestavy",
+        "code":  "66013",
+        "codesPostaux":  [
+                             "66320"
+                         ]
+    },
+    {
+        "nom":  "Baixas",
+        "code":  "66014",
+        "codesPostaux":  [
+                             "66390"
+                         ]
+    },
+    {
+        "nom":  "Banyuls-dels-Aspres",
+        "code":  "66015",
+        "codesPostaux":  [
+                             "66300"
+                         ]
+    },
+    {
+        "nom":  "Banyuls-sur-Mer",
+        "code":  "66016",
+        "codesPostaux":  [
+                             "66650"
+                         ]
+    },
+    {
+        "nom":  "Le Barcarès",
+        "code":  "66017",
+        "codesPostaux":  [
+                             "66420"
+                         ]
+    },
+    {
+        "nom":  "La Bastide",
+        "code":  "66018",
+        "codesPostaux":  [
+                             "66110"
+                         ]
+    },
+    {
+        "nom":  "Bélesta",
+        "code":  "66019",
+        "codesPostaux":  [
+                             "66720"
+                         ]
+    },
+    {
+        "nom":  "Bolquère",
+        "code":  "66020",
+        "codesPostaux":  [
+                             "66210"
+                         ]
+    },
+    {
+        "nom":  "Bompas",
+        "code":  "66021",
+        "codesPostaux":  [
+                             "66430"
+                         ]
+    },
+    {
+        "nom":  "Boule-d\u0027Amont",
+        "code":  "66022",
+        "codesPostaux":  [
+                             "66130"
+                         ]
+    },
+    {
+        "nom":  "Bouleternère",
+        "code":  "66023",
+        "codesPostaux":  [
+                             "66130"
+                         ]
+    },
+    {
+        "nom":  "Le Boulou",
+        "code":  "66024",
+        "codesPostaux":  [
+                             "66160"
+                         ]
+    },
+    {
+        "nom":  "Bourg-Madame",
+        "code":  "66025",
+        "codesPostaux":  [
+                             "66760"
+                         ]
+    },
+    {
+        "nom":  "Brouilla",
+        "code":  "66026",
+        "codesPostaux":  [
+                             "66620"
+                         ]
+    },
+    {
+        "nom":  "La Cabanasse",
+        "code":  "66027",
+        "codesPostaux":  [
+                             "66210"
+                         ]
+    },
+    {
+        "nom":  "Cabestany",
+        "code":  "66028",
+        "codesPostaux":  [
+                             "66330"
+                         ]
+    },
+    {
+        "nom":  "Caixas",
+        "code":  "66029",
+        "codesPostaux":  [
+                             "66300"
+                         ]
+    },
+    {
+        "nom":  "Calce",
+        "code":  "66030",
+        "codesPostaux":  [
+                             "66600"
+                         ]
+    },
+    {
+        "nom":  "Calmeilles",
+        "code":  "66032",
+        "codesPostaux":  [
+                             "66400"
+                         ]
+    },
+    {
+        "nom":  "Camélas",
+        "code":  "66033",
+        "codesPostaux":  [
+                             "66300"
+                         ]
+    },
+    {
+        "nom":  "Campôme",
+        "code":  "66034",
+        "codesPostaux":  [
+                             "66500"
+                         ]
+    },
+    {
+        "nom":  "Campoussy",
+        "code":  "66035",
+        "codesPostaux":  [
+                             "66730"
+                         ]
+    },
+    {
+        "nom":  "Canaveilles",
+        "code":  "66036",
+        "codesPostaux":  [
+                             "66360"
+                         ]
+    },
+    {
+        "nom":  "Canet-en-Roussillon",
+        "code":  "66037",
+        "codesPostaux":  [
+                             "66140"
+                         ]
+    },
+    {
+        "nom":  "Canohès",
+        "code":  "66038",
+        "codesPostaux":  [
+                             "66680"
+                         ]
+    },
+    {
+        "nom":  "Caramany",
+        "code":  "66039",
+        "codesPostaux":  [
+                             "66720"
+                         ]
+    },
+    {
+        "nom":  "Casefabre",
+        "code":  "66040",
+        "codesPostaux":  [
+                             "66130"
+                         ]
+    },
+    {
+        "nom":  "Cases-de-Pène",
+        "code":  "66041",
+        "codesPostaux":  [
+                             "66600"
+                         ]
+    },
+    {
+        "nom":  "Cassagnes",
+        "code":  "66042",
+        "codesPostaux":  [
+                             "66720"
+                         ]
+    },
+    {
+        "nom":  "Casteil",
+        "code":  "66043",
+        "codesPostaux":  [
+                             "66820"
+                         ]
+    },
+    {
+        "nom":  "Castelnou",
+        "code":  "66044",
+        "codesPostaux":  [
+                             "66300"
+                         ]
+    },
+    {
+        "nom":  "Catllar",
+        "code":  "66045",
+        "codesPostaux":  [
+                             "66500"
+                         ]
+    },
+    {
+        "nom":  "Caudiès-de-Fenouillèdes",
+        "code":  "66046",
+        "codesPostaux":  [
+                             "66220"
+                         ]
+    },
+    {
+        "nom":  "Caudiès-de-Conflent",
+        "code":  "66047",
+        "codesPostaux":  [
+                             "66360"
+                         ]
+    },
+    {
+        "nom":  "Cerbère",
+        "code":  "66048",
+        "codesPostaux":  [
+                             "66290"
+                         ]
+    },
+    {
+        "nom":  "Céret",
+        "code":  "66049",
+        "codesPostaux":  [
+                             "66400"
+                         ]
+    },
+    {
+        "nom":  "Claira",
+        "code":  "66050",
+        "codesPostaux":  [
+                             "66530"
+                         ]
+    },
+    {
+        "nom":  "Clara-Villerach",
+        "code":  "66051",
+        "codesPostaux":  [
+                             "66500"
+                         ]
+    },
+    {
+        "nom":  "Codalet",
+        "code":  "66052",
+        "codesPostaux":  [
+                             "66500"
+                         ]
+    },
+    {
+        "nom":  "Collioure",
+        "code":  "66053",
+        "codesPostaux":  [
+                             "66190"
+                         ]
+    },
+    {
+        "nom":  "Conat",
+        "code":  "66054",
+        "codesPostaux":  [
+                             "66500"
+                         ]
+    },
+    {
+        "nom":  "Corbère",
+        "code":  "66055",
+        "codesPostaux":  [
+                             "66130"
+                         ]
+    },
+    {
+        "nom":  "Corbère-les-Cabanes",
+        "code":  "66056",
+        "codesPostaux":  [
+                             "66130"
+                         ]
+    },
+    {
+        "nom":  "Corneilla-de-Conflent",
+        "code":  "66057",
+        "codesPostaux":  [
+                             "66820"
+                         ]
+    },
+    {
+        "nom":  "Corneilla-la-Rivière",
+        "code":  "66058",
+        "codesPostaux":  [
+                             "66550"
+                         ]
+    },
+    {
+        "nom":  "Corneilla-del-Vercol",
+        "code":  "66059",
+        "codesPostaux":  [
+                             "66200"
+                         ]
+    },
+    {
+        "nom":  "Corsavy",
+        "code":  "66060",
+        "codesPostaux":  [
+                             "66150"
+                         ]
+    },
+    {
+        "nom":  "Coustouges",
+        "code":  "66061",
+        "codesPostaux":  [
+                             "66260"
+                         ]
+    },
+    {
+        "nom":  "Dorres",
+        "code":  "66062",
+        "codesPostaux":  [
+                             "66760"
+                         ]
+    },
+    {
+        "nom":  "Les Cluses",
+        "code":  "66063",
+        "codesPostaux":  [
+                             "66480"
+                         ]
+    },
+    {
+        "nom":  "Égat",
+        "code":  "66064",
+        "codesPostaux":  [
+                             "66120"
+                         ]
+    },
+    {
+        "nom":  "Elne",
+        "code":  "66065",
+        "codesPostaux":  [
+                             "66200"
+                         ]
+    },
+    {
+        "nom":  "Enveitg",
+        "code":  "66066",
+        "codesPostaux":  [
+                             "66760"
+                         ]
+    },
+    {
+        "nom":  "Err",
+        "code":  "66067",
+        "codesPostaux":  [
+                             "66800"
+                         ]
+    },
+    {
+        "nom":  "Escaro",
+        "code":  "66068",
+        "codesPostaux":  [
+                             "66360"
+                         ]
+    },
+    {
+        "nom":  "Espira-de-l\u0027Agly",
+        "code":  "66069",
+        "codesPostaux":  [
+                             "66600"
+                         ]
+    },
+    {
+        "nom":  "Espira-de-Conflent",
+        "code":  "66070",
+        "codesPostaux":  [
+                             "66320"
+                         ]
+    },
+    {
+        "nom":  "Estagel",
+        "code":  "66071",
+        "codesPostaux":  [
+                             "66310"
+                         ]
+    },
+    {
+        "nom":  "Estavar",
+        "code":  "66072",
+        "codesPostaux":  [
+                             "66800"
+                         ]
+    },
+    {
+        "nom":  "Estoher",
+        "code":  "66073",
+        "codesPostaux":  [
+                             "66320"
+                         ]
+    },
+    {
+        "nom":  "Eus",
+        "code":  "66074",
+        "codesPostaux":  [
+                             "66500"
+                         ]
+    },
+    {
+        "nom":  "Eyne",
+        "code":  "66075",
+        "codesPostaux":  [
+                             "66800"
+                         ]
+    },
+    {
+        "nom":  "Feilluns",
+        "code":  "66076",
+        "codesPostaux":  [
+                             "66730"
+                         ]
+    },
+    {
+        "nom":  "Fenouillet",
+        "code":  "66077",
+        "codesPostaux":  [
+                             "66220"
+                         ]
+    },
+    {
+        "nom":  "Fillols",
+        "code":  "66078",
+        "codesPostaux":  [
+                             "66820"
+                         ]
+    },
+    {
+        "nom":  "Finestret",
+        "code":  "66079",
+        "codesPostaux":  [
+                             "66320"
+                         ]
+    },
+    {
+        "nom":  "Fontpédrouse",
+        "code":  "66080",
+        "codesPostaux":  [
+                             "66360"
+                         ]
+    },
+    {
+        "nom":  "Fontrabiouse",
+        "code":  "66081",
+        "codesPostaux":  [
+                             "66210"
+                         ]
+    },
+    {
+        "nom":  "Formiguères",
+        "code":  "66082",
+        "codesPostaux":  [
+                             "66210"
+                         ]
+    },
+    {
+        "nom":  "Fosse",
+        "code":  "66083",
+        "codesPostaux":  [
+                             "66220"
+                         ]
+    },
+    {
+        "nom":  "Fourques",
+        "code":  "66084",
+        "codesPostaux":  [
+                             "66300"
+                         ]
+    },
+    {
+        "nom":  "Fuilla",
+        "code":  "66085",
+        "codesPostaux":  [
+                             "66820"
+                         ]
+    },
+    {
+        "nom":  "Glorianes",
+        "code":  "66086",
+        "codesPostaux":  [
+                             "66320"
+                         ]
+    },
+    {
+        "nom":  "Ille-sur-Têt",
+        "code":  "66088",
+        "codesPostaux":  [
+                             "66130"
+                         ]
+    },
+    {
+        "nom":  "Joch",
+        "code":  "66089",
+        "codesPostaux":  [
+                             "66320"
+                         ]
+    },
+    {
+        "nom":  "Jujols",
+        "code":  "66090",
+        "codesPostaux":  [
+                             "66360"
+                         ]
+    },
+    {
+        "nom":  "Lamanère",
+        "code":  "66091",
+        "codesPostaux":  [
+                             "66230"
+                         ]
+    },
+    {
+        "nom":  "Lansac",
+        "code":  "66092",
+        "codesPostaux":  [
+                             "66720"
+                         ]
+    },
+    {
+        "nom":  "Laroque-des-Albères",
+        "code":  "66093",
+        "codesPostaux":  [
+                             "66740"
+                         ]
+    },
+    {
+        "nom":  "Latour-Bas-Elne",
+        "code":  "66094",
+        "codesPostaux":  [
+                             "66200"
+                         ]
+    },
+    {
+        "nom":  "Latour-de-Carol",
+        "code":  "66095",
+        "codesPostaux":  [
+                             "66760"
+                         ]
+    },
+    {
+        "nom":  "Latour-de-France",
+        "code":  "66096",
+        "codesPostaux":  [
+                             "66720"
+                         ]
+    },
+    {
+        "nom":  "Lesquerde",
+        "code":  "66097",
+        "codesPostaux":  [
+                             "66220"
+                         ]
+    },
+    {
+        "nom":  "La Llagonne",
+        "code":  "66098",
+        "codesPostaux":  [
+                             "66210"
+                         ]
+    },
+    {
+        "nom":  "Llauro",
+        "code":  "66099",
+        "codesPostaux":  [
+                             "66300"
+                         ]
+    },
+    {
+        "nom":  "Llo",
+        "code":  "66100",
+        "codesPostaux":  [
+                             "66800"
+                         ]
+    },
+    {
+        "nom":  "Llupia",
+        "code":  "66101",
+        "codesPostaux":  [
+                             "66300"
+                         ]
+    },
+    {
+        "nom":  "Mantet",
+        "code":  "66102",
+        "codesPostaux":  [
+                             "66360"
+                         ]
+    },
+    {
+        "nom":  "Marquixanes",
+        "code":  "66103",
+        "codesPostaux":  [
+                             "66320"
+                         ]
+    },
+    {
+        "nom":  "Los Masos",
+        "code":  "66104",
+        "codesPostaux":  [
+                             "66500"
+                         ]
+    },
+    {
+        "nom":  "Matemale",
+        "code":  "66105",
+        "codesPostaux":  [
+                             "66210"
+                         ]
+    },
+    {
+        "nom":  "Maureillas-las-Illas",
+        "code":  "66106",
+        "codesPostaux":  [
+                             "66480"
+                         ]
+    },
+    {
+        "nom":  "Maury",
+        "code":  "66107",
+        "codesPostaux":  [
+                             "66460"
+                         ]
+    },
+    {
+        "nom":  "Millas",
+        "code":  "66108",
+        "codesPostaux":  [
+                             "66170"
+                         ]
+    },
+    {
+        "nom":  "Molitg-les-Bains",
+        "code":  "66109",
+        "codesPostaux":  [
+                             "66500"
+                         ]
+    },
+    {
+        "nom":  "Montalba-le-Château",
+        "code":  "66111",
+        "codesPostaux":  [
+                             "66130"
+                         ]
+    },
+    {
+        "nom":  "Montauriol",
+        "code":  "66112",
+        "codesPostaux":  [
+                             "66300"
+                         ]
+    },
+    {
+        "nom":  "Montbolo",
+        "code":  "66113",
+        "codesPostaux":  [
+                             "66110"
+                         ]
+    },
+    {
+        "nom":  "Montescot",
+        "code":  "66114",
+        "codesPostaux":  [
+                             "66200"
+                         ]
+    },
+    {
+        "nom":  "Montesquieu-des-Albères",
+        "code":  "66115",
+        "codesPostaux":  [
+                             "66740"
+                         ]
+    },
+    {
+        "nom":  "Montferrer",
+        "code":  "66116",
+        "codesPostaux":  [
+                             "66150"
+                         ]
+    },
+    {
+        "nom":  "Mont-Louis",
+        "code":  "66117",
+        "codesPostaux":  [
+                             "66210"
+                         ]
+    },
+    {
+        "nom":  "Montner",
+        "code":  "66118",
+        "codesPostaux":  [
+                             "66720"
+                         ]
+    },
+    {
+        "nom":  "Mosset",
+        "code":  "66119",
+        "codesPostaux":  [
+                             "66500"
+                         ]
+    },
+    {
+        "nom":  "Nahuja",
+        "code":  "66120",
+        "codesPostaux":  [
+                             "66340"
+                         ]
+    },
+    {
+        "nom":  "Néfiach",
+        "code":  "66121",
+        "codesPostaux":  [
+                             "66170"
+                         ]
+    },
+    {
+        "nom":  "Nohèdes",
+        "code":  "66122",
+        "codesPostaux":  [
+                             "66500"
+                         ]
+    },
+    {
+        "nom":  "Nyer",
+        "code":  "66123",
+        "codesPostaux":  [
+                             "66360"
+                         ]
+    },
+    {
+        "nom":  "Font-Romeu-Odeillo-Via",
+        "code":  "66124",
+        "codesPostaux":  [
+                             "66120"
+                         ]
+    },
+    {
+        "nom":  "Olette",
+        "code":  "66125",
+        "codesPostaux":  [
+                             "66360"
+                         ]
+    },
+    {
+        "nom":  "Oms",
+        "code":  "66126",
+        "codesPostaux":  [
+                             "66400"
+                         ]
+    },
+    {
+        "nom":  "Opoul-Périllos",
+        "code":  "66127",
+        "codesPostaux":  [
+                             "66600"
+                         ]
+    },
+    {
+        "nom":  "Oreilla",
+        "code":  "66128",
+        "codesPostaux":  [
+                             "66360"
+                         ]
+    },
+    {
+        "nom":  "Ortaffa",
+        "code":  "66129",
+        "codesPostaux":  [
+                             "66560"
+                         ]
+    },
+    {
+        "nom":  "Osséja",
+        "code":  "66130",
+        "codesPostaux":  [
+                             "66340"
+                         ]
+    },
+    {
+        "nom":  "Palau-de-Cerdagne",
+        "code":  "66132",
+        "codesPostaux":  [
+                             "66340"
+                         ]
+    },
+    {
+        "nom":  "Palau-del-Vidre",
+        "code":  "66133",
+        "codesPostaux":  [
+                             "66690"
+                         ]
+    },
+    {
+        "nom":  "Passa",
+        "code":  "66134",
+        "codesPostaux":  [
+                             "66300"
+                         ]
+    },
+    {
+        "nom":  "Perpignan",
+        "code":  "66136",
+        "codesPostaux":  [
+                             "66000",
+                             "66100"
+                         ]
+    },
+    {
+        "nom":  "Le Perthus",
+        "code":  "66137",
+        "codesPostaux":  [
+                             "66480"
+                         ]
+    },
+    {
+        "nom":  "Peyrestortes",
+        "code":  "66138",
+        "codesPostaux":  [
+                             "66600"
+                         ]
+    },
+    {
+        "nom":  "Pézilla-de-Conflent",
+        "code":  "66139",
+        "codesPostaux":  [
+                             "66730"
+                         ]
+    },
+    {
+        "nom":  "Pézilla-la-Rivière",
+        "code":  "66140",
+        "codesPostaux":  [
+                             "66370"
+                         ]
+    },
+    {
+        "nom":  "Pia",
+        "code":  "66141",
+        "codesPostaux":  [
+                             "66380"
+                         ]
+    },
+    {
+        "nom":  "Planès",
+        "code":  "66142",
+        "codesPostaux":  [
+                             "66210"
+                         ]
+    },
+    {
+        "nom":  "Planèzes",
+        "code":  "66143",
+        "codesPostaux":  [
+                             "66720"
+                         ]
+    },
+    {
+        "nom":  "Pollestres",
+        "code":  "66144",
+        "codesPostaux":  [
+                             "66450"
+                         ]
+    },
+    {
+        "nom":  "Ponteilla",
+        "code":  "66145",
+        "codesPostaux":  [
+                             "66300"
+                         ]
+    },
+    {
+        "nom":  "Porta",
+        "code":  "66146",
+        "codesPostaux":  [
+                             "66760"
+                         ]
+    },
+    {
+        "nom":  "Porté-Puymorens",
+        "code":  "66147",
+        "codesPostaux":  [
+                             "66760"
+                         ]
+    },
+    {
+        "nom":  "Port-Vendres",
+        "code":  "66148",
+        "codesPostaux":  [
+                             "66660"
+                         ]
+    },
+    {
+        "nom":  "Prades",
+        "code":  "66149",
+        "codesPostaux":  [
+                             "66500"
+                         ]
+    },
+    {
+        "nom":  "Prats-de-Mollo-la-Preste",
+        "code":  "66150",
+        "codesPostaux":  [
+                             "66230"
+                         ]
+    },
+    {
+        "nom":  "Prats-de-Sournia",
+        "code":  "66151",
+        "codesPostaux":  [
+                             "66730"
+                         ]
+    },
+    {
+        "nom":  "Prugnanes",
+        "code":  "66152",
+        "codesPostaux":  [
+                             "66220"
+                         ]
+    },
+    {
+        "nom":  "Prunet-et-Belpuig",
+        "code":  "66153",
+        "codesPostaux":  [
+                             "66130"
+                         ]
+    },
+    {
+        "nom":  "Puyvalador",
+        "code":  "66154",
+        "codesPostaux":  [
+                             "66210"
+                         ]
+    },
+    {
+        "nom":  "Py",
+        "code":  "66155",
+        "codesPostaux":  [
+                             "66360"
+                         ]
+    },
+    {
+        "nom":  "Rabouillet",
+        "code":  "66156",
+        "codesPostaux":  [
+                             "66730"
+                         ]
+    },
+    {
+        "nom":  "Railleu",
+        "code":  "66157",
+        "codesPostaux":  [
+                             "66360"
+                         ]
+    },
+    {
+        "nom":  "Rasiguères",
+        "code":  "66158",
+        "codesPostaux":  [
+                             "66720"
+                         ]
+    },
+    {
+        "nom":  "Réal",
+        "code":  "66159",
+        "codesPostaux":  [
+                             "66210"
+                         ]
+    },
+    {
+        "nom":  "Reynès",
+        "code":  "66160",
+        "codesPostaux":  [
+                             "66400"
+                         ]
+    },
+    {
+        "nom":  "Ria-Sirach",
+        "code":  "66161",
+        "codesPostaux":  [
+                             "66500"
+                         ]
+    },
+    {
+        "nom":  "Rigarda",
+        "code":  "66162",
+        "codesPostaux":  [
+                             "66320"
+                         ]
+    },
+    {
+        "nom":  "Rivesaltes",
+        "code":  "66164",
+        "codesPostaux":  [
+                             "66600"
+                         ]
+    },
+    {
+        "nom":  "Rodès",
+        "code":  "66165",
+        "codesPostaux":  [
+                             "66320"
+                         ]
+    },
+    {
+        "nom":  "Sahorre",
+        "code":  "66166",
+        "codesPostaux":  [
+                             "66360"
+                         ]
+    },
+    {
+        "nom":  "Saillagouse",
+        "code":  "66167",
+        "codesPostaux":  [
+                             "66800"
+                         ]
+    },
+    {
+        "nom":  "Saint-André",
+        "code":  "66168",
+        "codesPostaux":  [
+                             "66690"
+                         ]
+    },
+    {
+        "nom":  "Saint-Arnac",
+        "code":  "66169",
+        "codesPostaux":  [
+                             "66220"
+                         ]
+    },
+    {
+        "nom":  "Sainte-Colombe-de-la-Commanderie",
+        "code":  "66170",
+        "codesPostaux":  [
+                             "66300"
+                         ]
+    },
+    {
+        "nom":  "Saint-Cyprien",
+        "code":  "66171",
+        "codesPostaux":  [
+                             "66750"
+                         ]
+    },
+    {
+        "nom":  "Saint-Estève",
+        "code":  "66172",
+        "codesPostaux":  [
+                             "66240"
+                         ]
+    },
+    {
+        "nom":  "Saint-Féliu-d\u0027Amont",
+        "code":  "66173",
+        "codesPostaux":  [
+                             "66170"
+                         ]
+    },
+    {
+        "nom":  "Saint-Féliu-d\u0027Avall",
+        "code":  "66174",
+        "codesPostaux":  [
+                             "66170"
+                         ]
+    },
+    {
+        "nom":  "Saint-Génis-des-Fontaines",
+        "code":  "66175",
+        "codesPostaux":  [
+                             "66740"
+                         ]
+    },
+    {
+        "nom":  "Saint-Hippolyte",
+        "code":  "66176",
+        "codesPostaux":  [
+                             "66510"
+                         ]
+    },
+    {
+        "nom":  "Saint-Jean-Lasseille",
+        "code":  "66177",
+        "codesPostaux":  [
+                             "66300"
+                         ]
+    },
+    {
+        "nom":  "Saint-Jean-Pla-de-Corts",
+        "code":  "66178",
+        "codesPostaux":  [
+                             "66490"
+                         ]
+    },
+    {
+        "nom":  "Saint-Laurent-de-Cerdans",
+        "code":  "66179",
+        "codesPostaux":  [
+                             "66260"
+                         ]
+    },
+    {
+        "nom":  "Saint-Laurent-de-la-Salanque",
+        "code":  "66180",
+        "codesPostaux":  [
+                             "66250"
+                         ]
+    },
+    {
+        "nom":  "Sainte-Léocadie",
+        "code":  "66181",
+        "codesPostaux":  [
+                             "66800"
+                         ]
+    },
+    {
+        "nom":  "Sainte-Marie-la-Mer",
+        "code":  "66182",
+        "codesPostaux":  [
+                             "66470"
+                         ]
+    },
+    {
+        "nom":  "Saint-Marsal",
+        "code":  "66183",
+        "codesPostaux":  [
+                             "66110"
+                         ]
+    },
+    {
+        "nom":  "Saint-Martin-de-Fenouillet",
+        "code":  "66184",
+        "codesPostaux":  [
+                             "66220"
+                         ]
+    },
+    {
+        "nom":  "Saint-Michel-de-Llotes",
+        "code":  "66185",
+        "codesPostaux":  [
+                             "66130"
+                         ]
+    },
+    {
+        "nom":  "Saint-Nazaire",
+        "code":  "66186",
+        "codesPostaux":  [
+                             "66570"
+                         ]
+    },
+    {
+        "nom":  "Saint-Paul-de-Fenouillet",
+        "code":  "66187",
+        "codesPostaux":  [
+                             "66220"
+                         ]
+    },
+    {
+        "nom":  "Saint-Pierre-dels-Forcats",
+        "code":  "66188",
+        "codesPostaux":  [
+                             "66210"
+                         ]
+    },
+    {
+        "nom":  "Saleilles",
+        "code":  "66189",
+        "codesPostaux":  [
+                             "66280"
+                         ]
+    },
+    {
+        "nom":  "Salses-le-Château",
+        "code":  "66190",
+        "codesPostaux":  [
+                             "66600"
+                         ]
+    },
+    {
+        "nom":  "Sansa",
+        "code":  "66191",
+        "codesPostaux":  [
+                             "66360"
+                         ]
+    },
+    {
+        "nom":  "Sauto",
+        "code":  "66192",
+        "codesPostaux":  [
+                             "66210"
+                         ]
+    },
+    {
+        "nom":  "Serdinya",
+        "code":  "66193",
+        "codesPostaux":  [
+                             "66360"
+                         ]
+    },
+    {
+        "nom":  "Serralongue",
+        "code":  "66194",
+        "codesPostaux":  [
+                             "66230"
+                         ]
+    },
+    {
+        "nom":  "Le Soler",
+        "code":  "66195",
+        "codesPostaux":  [
+                             "66270"
+                         ]
+    },
+    {
+        "nom":  "Sorède",
+        "code":  "66196",
+        "codesPostaux":  [
+                             "66690"
+                         ]
+    },
+    {
+        "nom":  "Souanyas",
+        "code":  "66197",
+        "codesPostaux":  [
+                             "66360"
+                         ]
+    },
+    {
+        "nom":  "Sournia",
+        "code":  "66198",
+        "codesPostaux":  [
+                             "66730"
+                         ]
+    },
+    {
+        "nom":  "Taillet",
+        "code":  "66199",
+        "codesPostaux":  [
+                             "66400"
+                         ]
+    },
+    {
+        "nom":  "Tarerach",
+        "code":  "66201",
+        "codesPostaux":  [
+                             "66320"
+                         ]
+    },
+    {
+        "nom":  "Targasonne",
+        "code":  "66202",
+        "codesPostaux":  [
+                             "66120"
+                         ]
+    },
+    {
+        "nom":  "Taulis",
+        "code":  "66203",
+        "codesPostaux":  [
+                             "66110"
+                         ]
+    },
+    {
+        "nom":  "Taurinya",
+        "code":  "66204",
+        "codesPostaux":  [
+                             "66500"
+                         ]
+    },
+    {
+        "nom":  "Tautavel",
+        "code":  "66205",
+        "codesPostaux":  [
+                             "66720"
+                         ]
+    },
+    {
+        "nom":  "Le Tech",
+        "code":  "66206",
+        "codesPostaux":  [
+                             "66230"
+                         ]
+    },
+    {
+        "nom":  "Terrats",
+        "code":  "66207",
+        "codesPostaux":  [
+                             "66300"
+                         ]
+    },
+    {
+        "nom":  "Théza",
+        "code":  "66208",
+        "codesPostaux":  [
+                             "66200"
+                         ]
+    },
+    {
+        "nom":  "Thuès-Entre-Valls",
+        "code":  "66209",
+        "codesPostaux":  [
+                             "66360"
+                         ]
+    },
+    {
+        "nom":  "Thuir",
+        "code":  "66210",
+        "codesPostaux":  [
+                             "66300"
+                         ]
+    },
+    {
+        "nom":  "Tordères",
+        "code":  "66211",
+        "codesPostaux":  [
+                             "66300"
+                         ]
+    },
+    {
+        "nom":  "Torreilles",
+        "code":  "66212",
+        "codesPostaux":  [
+                             "66440"
+                         ]
+    },
+    {
+        "nom":  "Toulouges",
+        "code":  "66213",
+        "codesPostaux":  [
+                             "66350"
+                         ]
+    },
+    {
+        "nom":  "Tresserre",
+        "code":  "66214",
+        "codesPostaux":  [
+                             "66300"
+                         ]
+    },
+    {
+        "nom":  "Trévillach",
+        "code":  "66215",
+        "codesPostaux":  [
+                             "66130"
+                         ]
+    },
+    {
+        "nom":  "Trilla",
+        "code":  "66216",
+        "codesPostaux":  [
+                             "66220"
+                         ]
+    },
+    {
+        "nom":  "Trouillas",
+        "code":  "66217",
+        "codesPostaux":  [
+                             "66300"
+                         ]
+    },
+    {
+        "nom":  "Ur",
+        "code":  "66218",
+        "codesPostaux":  [
+                             "66760"
+                         ]
+    },
+    {
+        "nom":  "Urbanya",
+        "code":  "66219",
+        "codesPostaux":  [
+                             "66500"
+                         ]
+    },
+    {
+        "nom":  "Valcebollère",
+        "code":  "66220",
+        "codesPostaux":  [
+                             "66340"
+                         ]
+    },
+    {
+        "nom":  "Valmanya",
+        "code":  "66221",
+        "codesPostaux":  [
+                             "66320"
+                         ]
+    },
+    {
+        "nom":  "Vernet-les-Bains",
+        "code":  "66222",
+        "codesPostaux":  [
+                             "66820"
+                         ]
+    },
+    {
+        "nom":  "Villefranche-de-Conflent",
+        "code":  "66223",
+        "codesPostaux":  [
+                             "66500"
+                         ]
+    },
+    {
+        "nom":  "Villelongue-de-la-Salanque",
+        "code":  "66224",
+        "codesPostaux":  [
+                             "66410"
+                         ]
+    },
+    {
+        "nom":  "Villelongue-dels-Monts",
+        "code":  "66225",
+        "codesPostaux":  [
+                             "66740"
+                         ]
+    },
+    {
+        "nom":  "Villemolaque",
+        "code":  "66226",
+        "codesPostaux":  [
+                             "66300"
+                         ]
+    },
+    {
+        "nom":  "Villeneuve-de-la-Raho",
+        "code":  "66227",
+        "codesPostaux":  [
+                             "66180"
+                         ]
+    },
+    {
+        "nom":  "Villeneuve-la-Rivière",
+        "code":  "66228",
+        "codesPostaux":  [
+                             "66610"
+                         ]
+    },
+    {
+        "nom":  "Vinça",
+        "code":  "66230",
+        "codesPostaux":  [
+                             "66320"
+                         ]
+    },
+    {
+        "nom":  "Vingrau",
+        "code":  "66231",
+        "codesPostaux":  [
+                             "66600"
+                         ]
+    },
+    {
+        "nom":  "Vira",
+        "code":  "66232",
+        "codesPostaux":  [
+                             "66220"
+                         ]
+    },
+    {
+        "nom":  "Vivès",
+        "code":  "66233",
+        "codesPostaux":  [
+                             "66490"
+                         ]
+    },
+    {
+        "nom":  "Le Vivier",
+        "code":  "66234",
+        "codesPostaux":  [
+                             "66730"
+                         ]
+    }
+]

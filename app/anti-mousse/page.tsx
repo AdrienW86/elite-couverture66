@@ -1,19 +1,6 @@
-import type { Metadata } from 'next';
-
-import Banner from '@/components/Banner/Banner'
-import Mousse from '@/components/Mousse/Mousse'
-import styles from '@/app/page.module.css'
-
-export const metadata: Metadata = {
-  title: 'Démoussage de toiture professionnel avec Elite Couverture - Pyrénées-Orientales',
-  description: 'Elite Couverture à Nantes vous propose un démoussage de toiture professionnel pour éliminer mousses, lichens et algues. Nettoyage et traitement anti-mousse efficaces dans les Pyrénées-Orientales.',
-};
-
-export default function page() {
-  return (
-    <main className={styles.main}>    
-      <Banner />
-      <Mousse /> 
-    </main>
-  )
-}
+import ServicePage from '@/components/ServicePage/ServicePage';
+import { pageMetadata, services } from '@/lib/site';
+import { serviceContent } from '@/lib/service-content';
+const path = '/anti-mousse' as const;
+export const metadata = pageMetadata(services.find(service => service.href === path)?.title + ' à Perpignan', serviceContent[path].description, path);
+export default function Page() { return <ServicePage path={path} />; }

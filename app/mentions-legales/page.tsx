@@ -1,62 +1,6 @@
-import type { Metadata } from 'next';
-import styles from "./mentions.module.css";
-
-export const metadata: Metadata = {
-  title: "Mentions légales | Elite Couverture",
-  description: "Mentions légales du site Elite Couverture",
-};
-
+import Link from 'next/link';
+import { pageMetadata, site } from '@/lib/site';
+export const metadata = pageMetadata('Mentions légales', 'Éditeur, hébergement et informations légales du site Élite Couverture 66.', '/mentions-legales');
 export default function MentionsLegales() {
-  return (
-    <main className={styles.container}>
-      <h1 className={styles.title}>Mentions légales</h1>
-
-      <section className={styles.section}>
-        <h2>Éditeur du site</h2>
-        <p><strong>Elite Couverture</strong></p>
-        <p>Entrepreneur individuel : Pierreuse Klenn</p>
-        <p>108 rue Aristide Briand – 44400 Rezé – France</p>
-        <p>SIREN : 798 282 695</p>
-        <p>SIRET : 798 282 695 00047</p>
-        <p>Activité : Travaux de couverture par éléments (APE 4391B)</p>
-        <p>Email : contact@elitecouverture66.fr</p>
-        <p>Directeur de la publication : Pierreuse Klenn</p>
-      </section>
-
-      <section className={styles.section}>
-        <h2>Hébergement</h2>
-        <p>Vercel Inc.</p>
-        <p>440 N Barranca Ave #4133</p>
-        <p>Covina, CA 91723 – États-Unis</p>
-        <p>https://vercel.com</p>
-      </section>
-
-      <section className={styles.section}>
-        <h2>Propriété intellectuelle</h2>
-        <p>
-          L’ensemble du contenu du site (textes, images, logo, structure, code,
-          etc.) est la propriété exclusive de Elite Couverture sauf mentions
-          contraires. Toute reproduction ou utilisation sans autorisation est
-          interdite.
-        </p>
-      </section>
-
-      <section className={styles.section}>
-        <h2>Responsabilité</h2>
-        <p>
-          Elite Couverture s’efforce de fournir des informations fiables.
-          Toutefois, l’entreprise ne saurait être tenue responsable des erreurs,
-          omissions ou défauts de mise à jour.
-        </p>
-      </section>
-
-      <section className={styles.section}>
-        <h2>Droit applicable</h2>
-        <p>
-          Le présent site est soumis au droit français. Tout litige relève des
-          juridictions compétentes françaises.
-        </p>
-      </section>
-    </main>
-  );
+  return <main id="contenu" className="editorial-page"><span className="eyebrow">Informations légales</span><h1>Mentions légales.</h1><section><h2>Éditeur du site</h2><p><strong>Élite Couverture 66</strong> est un nom commercial exploité par Grégory José Roblès, entrepreneur individuel.</p><p>Adresse : 88 Cami de Las Carretas, 66380 Pia, France.<br />SIREN : 834 799 751.<br />SIRET : 834 799 751 00013.<br />Activité principale : travaux de couverture par éléments (APE 43.91B).</p><p>Directeur de la publication : Grégory José Roblès.<br />E-mail : <a href={`mailto:${site.email}`}>{site.email}</a>.<br />Téléphone : <a href={`tel:${site.phone}`}>{site.phoneLabel}</a>.</p><p className="image-note">Identité et établissement vérifiés dans l’<a href="https://annuaire-entreprises.data.gouv.fr/entreprise/834799751" target="_blank" rel="noopener noreferrer">Annuaire des entreprises ↗</a> le 20 octobre 2026.</p></section><section><h2>Hébergement</h2><p>Vercel Inc.<br />440 N Barranca Ave #4133, Covina, CA 91723, États-Unis.<br /><a href="https://vercel.com" target="_blank" rel="noopener noreferrer">vercel.com ↗</a></p></section><section><h2>Création du site et groupe</h2><p>Élite Couverture 66 fait partie du groupe <a href="https://solution-habitation.fr" target="_blank" rel="noopener noreferrer">Solution Habitation ↗</a>.<br />Site créé par <a href="https://code-v.fr" target="_blank" rel="noopener noreferrer">CODE-V ↗</a>.</p></section><section><h2>Propriété intellectuelle</h2><p>Les textes, éléments graphiques, photographies et autres contenus du site restent soumis aux droits de leurs auteurs et titulaires respectifs. Leur reproduction ou réutilisation nécessite une autorisation.</p></section><section><h2>Responsabilité</h2><p>Les informations présentées décrivent les prestations proposées. Le périmètre, les conditions et le délai d’une intervention sont précisés dans le devis. Les contenus de conseil ne remplacent pas l’examen du bâtiment.</p></section><section><h2>Données personnelles</h2><p>Consultez la <Link className="underline" href="/confidentialite">politique de confidentialité</Link> pour connaître les données traitées et gérer vos préférences.</p></section><section><h2>Droit applicable</h2><p>Le site est soumis au droit français. Les règles de compétence juridictionnelle applicables sont celles prévues par la réglementation.</p></section></main>;
 }

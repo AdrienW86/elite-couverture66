@@ -1,21 +1,6 @@
+import Link from 'next/link';
 import type { Metadata } from 'next';
-// app/not-found.js
-import Link from 'next/link'
-import styles from '@/app/not-found.module.css' 
-
-export const metadata: Metadata = {
-  title: 'Page non trouvée - Elite Couverture',
-  description: 'Oups ! La page que vous recherchez n’existe pas. Retournez à l’accueil de Elite Couverture, couvreur à Perpignan.',
-};
-
+export const metadata: Metadata = { title: 'Page introuvable', robots: { index: false, follow: true } };
 export default function NotFound() {
-  return (
-    <main className={styles.main}>
-      <h1 className={styles.title}>404 - Page non trouvée</h1>
-      <p className={styles.p}>Désolé, la page que vous recherchez n'existe pas ou a été déplacée.</p>
-      <Link href="/" className={styles.link}>
-        Retour à l'accueil
-      </Link>
-    </main>
-  )
+  return <main id="contenu" className="editorial-page"><span className="eyebrow">Erreur 404</span><h1>Cette page<br /><em>n’est plus ici.</em></h1><p>Retrouvez les prestations de l’atelier ou contactez-nous pour votre projet.</p><nav className="service-links" aria-label="Retrouver une page"><Link href="/">Retour à l’accueil ↗</Link><Link href="/prestations">Nos prestations ↗</Link><Link href="/contact">Nous contacter ↗</Link></nav></main>;
 }

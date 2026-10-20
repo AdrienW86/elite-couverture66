@@ -1,18 +1,6 @@
-import type { Metadata } from 'next';
-import Banner from '@/components/Banner/Banner'
-import Isolation from '@/components/Isolation/Isolation'
-import styles from '@/app/page.module.css'
-
-export const metadata: Metadata = {
-  title: 'Isolation des combles avec Elite Couverture - Pyrénées-Orientales',
-  description: "Elite Couverture propose l'isolation des combles à Perpignan et dans les Pyrénées-Orientales. Améliorez le confort thermique et réduisez vos factures d'énergie grâce à notre savoir-faire.",
-};
-
-export default function page() {
-  return (
-    <main className={styles.main}>   
-      <Banner />
-      <Isolation /> 
-    </main>
-  )
-}
+import ServicePage from '@/components/ServicePage/ServicePage';
+import { pageMetadata, services } from '@/lib/site';
+import { serviceContent } from '@/lib/service-content';
+const path = '/isolation' as const;
+export const metadata = pageMetadata(services.find(service => service.href === path)?.title + ' à Perpignan', serviceContent[path].description, path);
+export default function Page() { return <ServicePage path={path} />; }

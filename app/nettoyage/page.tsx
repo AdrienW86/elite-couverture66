@@ -1,18 +1,6 @@
-import type { Metadata } from 'next';
-import Banner from '@/components/Banner/Banner'
-import Nettoyage from '@/components/Nettoyage/Nettoyage'
-import styles from '@/app/page.module.css'
-
-export const metadata: Metadata = {
-  title: 'Nettoyage de toiture à Perpignan - Elite Couverture',
-  description: 'Elite Couverture réalise le nettoyage complet de votre toiture à Perpignan : traitement anti-mousse, entretien et préservation de votre couverture dans les Pyrénées-Orientales.',
-};
-
-export default function page() {
-  return (
-    <main className={styles.main}>   
-      <Banner />
-      <Nettoyage /> 
-    </main>
-  )
-}
+import ServicePage from '@/components/ServicePage/ServicePage';
+import { pageMetadata, services } from '@/lib/site';
+import { serviceContent } from '@/lib/service-content';
+const path = '/nettoyage' as const;
+export const metadata = pageMetadata(services.find(service => service.href === path)?.title + ' à Perpignan', serviceContent[path].description, path);
+export default function Page() { return <ServicePage path={path} />; }

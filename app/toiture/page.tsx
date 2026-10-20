@@ -1,18 +1,6 @@
-import type { Metadata } from 'next';
-import Banner from '@/components/Banner/Banner'
-import Reparation from '@/components/Reparation/Reparation'
-import styles from '@/app/page.module.css'
-
-export const metadata: Metadata = {
-  title: 'Réparation de toiture à Perpignan - Urgence et dépannage Elite Couverture',
-  description: 'Elite Couverture intervient rapidement pour la réparation de votre toiture à Perpignan : tuiles cassées, fuites, infiltrations. Service d’urgence dans les Pyrénées-Orientales.',
-};
-
-export default function page() {
-  return (
-    <main className={styles.main}>   
-      <Banner />
-      <Reparation /> 
-    </main>
-  )
-}
+import ServicePage from '@/components/ServicePage/ServicePage';
+import { pageMetadata, services } from '@/lib/site';
+import { serviceContent } from '@/lib/service-content';
+const path = '/toiture' as const;
+export const metadata = pageMetadata(services.find(service => service.href === path)?.title + ' à Perpignan', serviceContent[path].description, path);
+export default function Page() { return <ServicePage path={path} />; }
