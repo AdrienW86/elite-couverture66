@@ -1,6 +1,137 @@
-import { ConsentSettings } from '@/components/Telemetry/Telemetry';
-import { pageMetadata, site } from '@/lib/site';
-export const metadata = pageMetadata('Confidentialité et préférences', 'Utilisation des données du formulaire et choix des mesures d’audience, de performance et de publicité sur Élite Couverture 66.', '/confidentialite');
+import { ConsentSettings } from "@/components/Telemetry/Telemetry";
+import { pageMetadata, site } from "@/lib/site";
+export const metadata = pageMetadata(
+  "Confidentialité et préférences",
+  "Utilisation des données du formulaire et choix des mesures d’audience, de performance et de publicité sur Élite Couverture 66.",
+  "/confidentialite",
+);
 export default function Confidentialite() {
-  return <main id="contenu" className="editorial-page"><span className="eyebrow">Votre visite, votre choix</span><h1>Confidentialité.</h1><section><h2>Responsable du traitement</h2><p>Grégory José Roblès, entrepreneur individuel, 88 Cami de Las Carretas, 66380 Pia. Contact : <a href={`mailto:${site.email}`}>{site.email}</a>.</p></section><section><h2>Vos demandes de contact</h2><p>Le formulaire recueille votre nom, téléphone, commune, prestation souhaitée, message et, si vous le renseignez, votre e-mail. Ces informations servent à répondre à votre demande et à préparer une éventuelle proposition de travaux. Le traitement répond à votre demande de mesures précontractuelles ou de renseignements.</p><p>Les données sont destinées à l’entreprise. L’envoi des messages utilise Resend et l’hébergement Vercel, qui interviennent comme prestataires techniques. Les données ne sont pas vendues. Ne transmettez pas de données sensibles dans le message.</p></section><section><h2>Conservation et protection</h2><p>Les informations sont conservées pendant le traitement de la demande et le suivi nécessaire à la relation commerciale. Si vous devenez client, les obligations légales de conservation des documents contractuels et comptables s’appliquent.</p><p>Des protections limitent les envois automatisés. L’application ne journalise pas le contenu des formulaires ni les coordonnées dans ses logs d’erreur. L’hébergeur peut traiter des données techniques de connexion pour la sécurité du service.</p></section><section><h2>Audience et performances</h2><p>Vercel Analytics et Speed Insights sont activés uniquement après votre accord. Ils mesurent les visites, les performances et trois actions : clic sur un numéro de téléphone, clic vers une demande de devis et envoi accepté par le service de messagerie. Vos coordonnées et votre message ne sont pas transmis dans ces événements. Les paramètres de recherche et les fragments des URL sont retirés des mesures.</p></section><section><h2>Google Ads et carte Google Maps</h2><p>La balise Google Ads est chargée uniquement si vous autorisez également la publicité ci-dessous. La carte Google Maps ne se charge qu’après votre action explicite sur la page contact. Ces services peuvent traiter des données de connexion et utiliser leurs propres mécanismes de stockage.</p></section><section><h2>Vos préférences</h2><p>Votre choix est enregistré dans le stockage local du navigateur. Vous pouvez le modifier ici. Le refus reste compatible avec la navigation et l’utilisation du formulaire.</p><ConsentSettings /></section><section><h2>Vos droits et recours</h2><p>Vous pouvez demander l’accès, la rectification, l’effacement ou la limitation de vos données, et exercer les autres droits applicables à votre situation en écrivant à <a href={`mailto:${site.email}`}>{site.email}</a>. Vous pouvez également adresser une réclamation à la <a className="underline" href="https://www.cnil.fr/fr/plaintes" target="_blank" rel="noopener noreferrer">CNIL ↗</a>.</p></section><section><h2>Prestataires techniques</h2><p>Pour connaître les conditions de traitement et de transfert propres aux prestataires, consultez les politiques de <a className="underline" href="https://vercel.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Vercel</a>, <a className="underline" href="https://resend.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Resend</a> et <a className="underline" href="https://policies.google.com/privacy?hl=fr" target="_blank" rel="noopener noreferrer">Google</a>.</p></section></main>;
+  return (
+    <main id="contenu" className="editorial-page">
+      <span className="eyebrow">Votre visite, votre choix</span>
+      <h1>Confidentialité.</h1>
+      <section>
+        <h2>Responsable du traitement</h2>
+        <p>
+          Grégory José Roblès, entrepreneur individuel, 88 Cami de Las Carretas,
+          66380 Pia. Contact : <a href={`mailto:${site.email}`}>{site.email}</a>
+          .
+        </p>
+      </section>
+      <section>
+        <h2>Vos demandes de contact</h2>
+        <p>
+          Le formulaire recueille votre nom, téléphone, commune, prestation
+          souhaitée, message et, si vous le renseignez, votre e-mail. Ces
+          informations servent à répondre à votre demande et à préparer une
+          éventuelle proposition de travaux. Le traitement répond à votre
+          demande de mesures précontractuelles ou de renseignements.
+        </p>
+        <p>
+          Les données sont destinées à l’entreprise. L’envoi des messages
+          utilise Resend et l’hébergement Vercel, qui interviennent comme
+          prestataires techniques. Les données ne sont pas vendues. Ne
+          transmettez pas de données sensibles dans le message.
+        </p>
+      </section>
+      <section>
+        <h2>Conservation et protection</h2>
+        <p>
+          Les informations sont conservées pendant le traitement de la demande
+          et le suivi nécessaire à la relation commerciale. Si vous devenez
+          client, les obligations légales de conservation des documents
+          contractuels et comptables s’appliquent.
+        </p>
+        <p>
+          Des protections limitent les envois automatisés. L’application ne
+          journalise pas le contenu des formulaires ni les coordonnées dans ses
+          logs d’erreur. L’hébergeur peut traiter des données techniques de
+          connexion pour la sécurité du service.
+        </p>
+      </section>
+      <section>
+        <h2>Audience et performances</h2>
+        <p>
+          Vercel Analytics et Speed Insights sont activés uniquement après votre
+          accord. Ils mesurent les visites, les performances et trois actions :
+          clic sur un numéro de téléphone, clic vers une demande de devis et
+          envoi accepté par le service de messagerie. Vos coordonnées et votre
+          message ne sont pas transmis dans ces événements. Les paramètres de
+          recherche et les fragments des URL sont retirés des mesures.
+        </p>
+      </section>
+      <section>
+        <h2>Google Ads et carte Google Maps</h2>
+        <p>
+          La balise Google Ads est chargée uniquement si vous autorisez
+          également la publicité ci-dessous. La carte Google Maps ne se charge
+          qu’après votre action explicite sur la page contact. Ces services
+          peuvent traiter des données de connexion et utiliser leurs propres
+          mécanismes de stockage.
+        </p>
+      </section>
+      <section>
+        <h2>Vos préférences</h2>
+        <p>
+          Votre choix est enregistré dans le stockage local du navigateur. Vous
+          pouvez le modifier ici. Le refus reste compatible avec la navigation
+          et l’utilisation du formulaire.
+        </p>
+        <ConsentSettings />
+      </section>
+      <section>
+        <h2>Vos droits et recours</h2>
+        <p>
+          Vous pouvez demander l’accès, la rectification, l’effacement ou la
+          limitation de vos données, et exercer les autres droits applicables à
+          votre situation en écrivant à{" "}
+          <a href={`mailto:${site.email}`}>{site.email}</a>. Vous pouvez
+          également adresser une réclamation à la{" "}
+          <a
+            className="underline"
+            href="https://www.cnil.fr/fr/plaintes"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            CNIL ↗
+          </a>
+          .
+        </p>
+      </section>
+      <section>
+        <h2>Prestataires techniques</h2>
+        <p>
+          Pour connaître les conditions de traitement et de transfert propres
+          aux prestataires, consultez les politiques de{" "}
+          <a
+            className="underline"
+            href="https://vercel.com/legal/privacy-policy"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Vercel
+          </a>
+          ,{" "}
+          <a
+            className="underline"
+            href="https://resend.com/legal/privacy-policy"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resend
+          </a>{" "}
+          et{" "}
+          <a
+            className="underline"
+            href="https://policies.google.com/privacy?hl=fr"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Google
+          </a>
+          .
+        </p>
+      </section>
+    </main>
+  );
 }

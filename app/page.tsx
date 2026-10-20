@@ -1,25 +1,237 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import Form from '@/components/Form/Form';
-import { pageMetadata, services } from '@/lib/site';
+import Image from "next/image";
+import Link from "next/link";
+import Form from "@/components/Form/Form";
+import { pageMetadata, services } from "@/lib/site";
 
-export const metadata = pageMetadata('Élite Couverture 66 — L’atelier des toitures à Perpignan', 'Couverture, rénovation, zinguerie et entretien de toiture à Perpignan et dans les Pyrénées-Orientales. Un projet étudié avec attention, un devis adapté.', '/');
+export const metadata = pageMetadata(
+  "Élite Couverture 66 — L’atelier des toitures à Perpignan",
+  "Couverture, rénovation, zinguerie et entretien de toiture à Perpignan et dans les Pyrénées-Orientales. Un projet étudié avec attention, un devis adapté.",
+  "/",
+);
 
 export default function Home() {
   return (
     <main id="contenu">
       <section className="home-hero">
-        <div className="hero-topline"><span>Élite Couverture 66</span><span>Le soin de l’ouvrage, dans chaque détail.</span></div>
-        <div className="hero-photo"><Image src="/castelnou.jpg" alt="Toitures de terre cuite et maisons en pierre du village de Castelnou" fill sizes="100vw" preload style={{ objectFit: 'cover' }} /><span className="photo-caption">CASTELNOU — PATRIMOINE DES PYRÉNÉES-ORIENTALES</span></div>
-        <div className="hero-copy"><span className="eyebrow">01 / L’art de la couverture</span><h1>L’exigence du geste.<br /><em>Le respect de l’ouvrage.</em></h1><div className="hero-description"><p>Une approche de la couverture attentive aux matériaux, à l’architecture et à la qualité de réalisation. À Perpignan et dans les Pyrénées-Orientales.</p><Link className="text-link" href="/prestations">Découvrir nos prestations <span aria-hidden="true">↗</span></Link></div></div>
-        <div className="hero-foot"><span>Couverture · Zinguerie · Entretien</span><a href="#approche">Poursuivre la visite ↓</a></div><p className="heritage-credit">Photographie d’ambiance : Castelnou, BlueBreezeWiki / <a href="https://commons.wikimedia.org/wiki/File:130607_Castelnou-01.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 3.0</a>. Cadrage d’affichage adapté. Aucun chantier de l’entreprise n’est représenté sur cette vue.</p>
+        <div className="hero-topline">
+          <span>Élite Couverture 66</span>
+          <span>Le soin de l’ouvrage, dans chaque détail.</span>
+        </div>
+        <div className="hero-photo">
+          <Image
+            src="/castelnou.jpg"
+            alt="Toitures de terre cuite et maisons en pierre du village de Castelnou"
+            fill
+            sizes="100vw"
+            preload
+            style={{ objectFit: "cover" }}
+          />
+          <span className="photo-caption">
+            CASTELNOU — PATRIMOINE DES PYRÉNÉES-ORIENTALES
+          </span>
+        </div>
+        <div className="hero-copy">
+          <span className="eyebrow">01 / L’art de la couverture</span>
+          <h1>
+            L’exigence du geste.
+            <br />
+            <em>Le respect de l’ouvrage.</em>
+          </h1>
+          <div className="hero-description">
+            <p>
+              Une approche de la couverture attentive aux matériaux, à
+              l’architecture et à la qualité de réalisation. À Perpignan et dans
+              les Pyrénées-Orientales.
+            </p>
+            <Link className="text-link" href="/prestations">
+              Découvrir nos prestations <span aria-hidden="true">↗</span>
+            </Link>
+          </div>
+        </div>
+        <div className="hero-foot">
+          <span>Couverture · Zinguerie · Entretien</span>
+          <a href="#approche">Poursuivre la visite ↓</a>
+        </div>
+        <p className="heritage-credit">
+          Photographie d’ambiance : Castelnou, BlueBreezeWiki /{" "}
+          <a
+            href="https://commons.wikimedia.org/wiki/File:130607_Castelnou-01.jpg"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Wikimedia Commons
+          </a>
+          ,{" "}
+          <a
+            href="https://creativecommons.org/licenses/by-sa/3.0/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            CC BY-SA 3.0
+          </a>
+          . Cadrage d’affichage adapté. Aucun chantier de l’entreprise n’est
+          représenté sur cette vue.
+        </p>
       </section>
-      <section id="approche" className="chapter approach"><div><span className="eyebrow">02 / Une attention à l’existant</span><h2>Un toit protège.<br /><em>Il raconte aussi un lieu.</em></h2><p>La forme d’une tuile, la ligne d’une rive, le raccord d’une gouttière : une toiture se comprend dans son ensemble et se soigne dans ses détails.</p><p>Avant de proposer des travaux, nous échangeons sur votre maison et les désordres observés. Réparation ponctuelle, rénovation ou entretien : l’intervention se définit à partir de l’état de la couverture.</p><Link className="text-link" href="/savoir-faire">Notre approche ↗</Link></div><figure className="approach-image"><Image src="/image2.avif" alt="Le geste de pose sur une couverture en tuiles" width={850} height={1050} sizes="(max-width: 760px) 100vw, 45vw" /><figcaption>Observer. Comprendre. Intervenir avec soin.</figcaption></figure></section>
-      <section id="prestations" className="chapter services-section"><div className="section-heading"><span className="eyebrow">03 / Les savoir-faire</span><h2>La toiture,<br /><em>dans son ensemble.</em></h2></div><div className="service-list">{services.map((service, index) => <Link key={service.href} href={service.href}><span className="service-number">0{index + 1}</span><h3>{service.title}</h3><p>{service.description}</p><span className="service-arrow" aria-hidden="true">↗</span></Link>)}</div></section>
-      <section className="materials"><Image src="/image7.avif" alt="Structure en bois et isolation sous toiture" fill sizes="100vw" style={{ objectFit: 'cover' }} /><div><span className="eyebrow">04 / La matière & la maison</span><h2>Ce qui se voit.<br /><em>Ce qui vous protège.</em></h2><p>Tuiles, bois, isolants, éléments de zinguerie : chaque partie de la toiture joue un rôle. Le choix des matériaux et leur mise en œuvre s’étudient selon votre bâtiment et son environnement.</p><Link className="text-link" href="/toiture">Comprendre les travaux de toiture ↗</Link></div></section>
-      <section className="chapter image-story"><div className="section-heading"><span className="eyebrow">05 / Regards sur la toiture</span><h2>Du geste<br /><em>au détail.</em></h2><Link className="text-link" href="/pictures">Parcourir la galerie ↗</Link></div><div className="image-pair"><figure><Image src="/image13.avif" alt="Travail de couverture sur un toit en tuiles" width={900} height={650} sizes="(max-width: 760px) 100vw, 55vw" /><figcaption>01 — La couverture, un ensemble à considérer.</figcaption></figure><figure><Image src="/image5.avif" alt="Entretien d’une gouttière au bord de la toiture" width={600} height={750} sizes="(max-width: 760px) 100vw, 35vw" /><figcaption>02 — Le soin des évacuations.</figcaption></figure></div><p className="image-note">Sélection des photographies du site. Elles illustrent les travaux de toiture ; les lieux et références des chantiers ne sont pas documentés.</p></section>
-      <section className="chapter territory"><span className="eyebrow">06 / Un territoire, des toitures</span><div><h2>Les Pyrénées-Orientales.<br /><em>Votre maison, ici.</em></h2><p>De Perpignan au littoral, chaque projet s’inscrit dans un environnement particulier. Indiquez votre commune et les travaux envisagés pour étudier une intervention.</p><Link className="text-link" href="/secteur-intervention">Découvrir notre secteur ↗</Link></div><span className="territory-mark" aria-hidden="true">66</span></section>
-      <section className="chapter contact-chapter"><div><span className="eyebrow">07 / Votre projet commence ici</span><h2>Parlons de<br /><em>votre toiture.</em></h2><p>Une réparation à prévoir, une rénovation à étudier, une question sur l’entretien ? Décrivez-nous votre besoin pour préparer un devis.</p></div><Form /></section>
+      <section id="approche" className="chapter approach">
+        <div>
+          <span className="eyebrow">02 / Une attention à l’existant</span>
+          <h2>
+            Un toit protège.
+            <br />
+            <em>Il raconte aussi un lieu.</em>
+          </h2>
+          <p>
+            La forme d’une tuile, la ligne d’une rive, le raccord d’une
+            gouttière : une toiture se comprend dans son ensemble et se soigne
+            dans ses détails.
+          </p>
+          <p>
+            Avant de proposer des travaux, nous échangeons sur votre maison et
+            les désordres observés. Réparation ponctuelle, rénovation ou
+            entretien : l’intervention se définit à partir de l’état de la
+            couverture.
+          </p>
+          <Link className="text-link" href="/savoir-faire">
+            Notre approche ↗
+          </Link>
+        </div>
+        <figure className="approach-image">
+          <Image
+            src="/image2.avif"
+            alt="Le geste de pose sur une couverture en tuiles"
+            width={850}
+            height={1050}
+            sizes="(max-width: 760px) 100vw, 45vw"
+          />
+          <figcaption>Observer. Comprendre. Intervenir avec soin.</figcaption>
+        </figure>
+      </section>
+      <section id="prestations" className="chapter services-section">
+        <div className="section-heading">
+          <span className="eyebrow">03 / Les savoir-faire</span>
+          <h2>
+            La toiture,
+            <br />
+            <em>dans son ensemble.</em>
+          </h2>
+        </div>
+        <div className="service-list">
+          {services.map((service, index) => (
+            <Link key={service.href} href={service.href}>
+              <span className="service-number">0{index + 1}</span>
+              <h3>{service.title}</h3>
+              <p>{service.description}</p>
+              <span className="service-arrow" aria-hidden="true">
+                ↗
+              </span>
+            </Link>
+          ))}
+        </div>
+      </section>
+      <section className="materials">
+        <Image
+          src="/image7.avif"
+          alt="Structure en bois et isolation sous toiture"
+          fill
+          sizes="100vw"
+          style={{ objectFit: "cover" }}
+        />
+        <div>
+          <span className="eyebrow">04 / La matière & la maison</span>
+          <h2>
+            Ce qui se voit.
+            <br />
+            <em>Ce qui vous protège.</em>
+          </h2>
+          <p>
+            Tuiles, bois, isolants, éléments de zinguerie : chaque partie de la
+            toiture joue un rôle. Le choix des matériaux et leur mise en œuvre
+            s’étudient selon votre bâtiment et son environnement.
+          </p>
+          <Link className="text-link" href="/toiture">
+            Comprendre les travaux de toiture ↗
+          </Link>
+        </div>
+      </section>
+      <section className="chapter image-story">
+        <div className="section-heading">
+          <span className="eyebrow">05 / Regards sur la toiture</span>
+          <h2>
+            Du geste
+            <br />
+            <em>au détail.</em>
+          </h2>
+          <Link className="text-link" href="/pictures">
+            Parcourir la galerie ↗
+          </Link>
+        </div>
+        <div className="image-pair">
+          <figure>
+            <Image
+              src="/image13.avif"
+              alt="Travail de couverture sur un toit en tuiles"
+              width={900}
+              height={650}
+              sizes="(max-width: 760px) 100vw, 55vw"
+            />
+            <figcaption>
+              01 — La couverture, un ensemble à considérer.
+            </figcaption>
+          </figure>
+          <figure>
+            <Image
+              src="/image5.avif"
+              alt="Entretien d’une gouttière au bord de la toiture"
+              width={600}
+              height={750}
+              sizes="(max-width: 760px) 100vw, 35vw"
+            />
+            <figcaption>02 — Le soin des évacuations.</figcaption>
+          </figure>
+        </div>
+        <p className="image-note">
+          Sélection des photographies du site. Elles illustrent les travaux de
+          toiture ; les lieux et références des chantiers ne sont pas
+          documentés.
+        </p>
+      </section>
+      <section className="chapter territory">
+        <span className="eyebrow">06 / Un territoire, des toitures</span>
+        <div>
+          <h2>
+            Les Pyrénées-Orientales.
+            <br />
+            <em>Votre maison, ici.</em>
+          </h2>
+          <p>
+            De Perpignan au littoral, chaque projet s’inscrit dans un
+            environnement particulier. Indiquez votre commune et les travaux
+            envisagés pour étudier une intervention.
+          </p>
+          <Link className="text-link" href="/secteur-intervention">
+            Découvrir notre secteur ↗
+          </Link>
+        </div>
+        <span className="territory-mark" aria-hidden="true">
+          66
+        </span>
+      </section>
+      <section className="chapter contact-chapter">
+        <div>
+          <span className="eyebrow">07 / Votre projet commence ici</span>
+          <h2>
+            Parlons de
+            <br />
+            <em>votre toiture.</em>
+          </h2>
+          <p>
+            Une réparation à prévoir, une rénovation à étudier, une question sur
+            l’entretien ? Décrivez-nous votre besoin pour préparer un devis.
+          </p>
+        </div>
+        <Form />
+      </section>
     </main>
   );
 }
