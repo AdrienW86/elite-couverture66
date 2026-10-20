@@ -1,8 +1,9 @@
+import type { Metadata } from 'next';
 import Map from '@/components/Map/Map'
 import Form from '@/components/Form/Form'
 import styles from '../page.module.css'
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Contactez Elite Couverture - Couvreur à Perpignan et alentours',
   description: 'Besoin d’un devis ou d’un renseignement ? Contactez Elite Couverture, artisan couvreur à Perpignan, pour tous vos projets de toiture dans les Pyrénées-Orientales.',
 };

@@ -1,7 +1,8 @@
 import Image from 'next/image';
+import type { ServiceCard } from '@/types/business';
 import styles from './card.module.css';
 
-export default function Card({ imageSrc, imageAlt, title, description }) {
+export default function Card({ imageSrc, imageAlt, title, description }: ServiceCard) {
   return (
     <div className={styles.card}>
       <Image

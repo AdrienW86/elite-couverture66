@@ -1,6 +1,6 @@
 import nodemailer from "nodemailer";
 
-export async function POST(req) {
+export async function POST(req: Request) {
     const { name, email, phone, subject, message } = await req.json();
 
     if (!name || !email || !subject || !message || !phone) {
@@ -37,6 +37,6 @@ export async function POST(req) {
         return new Response(JSON.stringify({ message: "EMAIL_SENDED_SUCCESSFULLY" }), { status: 200 });
     } catch (error) {
         console.error("Error sending email:", error);
-        return new Response(JSON.stringify({ message: "ERROR_WITH_ZOHO", error: error.message }), { status: 500 });
+        return new Response(JSON.stringify({ message: "ERROR_WITH_ZOHO" }), { status: 500 });
     }
 }

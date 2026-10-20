@@ -2,15 +2,16 @@
 
 import React, {useState} from 'react'
 import {useForm} from 'react-hook-form';
+import type { ContactFormData } from '@/types/business';
 import styles from './form.module.css'
 
 export default function Form() {
   const [isLoading, setIsLoading] = useState(false)
   const [isSended, setIsSended] = useState(false);
  
-  const { register, handleSubmit, reset, formState: { errors } } = useForm()
+  const { register, handleSubmit, reset, formState: { errors } } = useForm<ContactFormData>()
 
-  const onSubmit = async(data) => {
+  const onSubmit = async(data: ContactFormData) => {
     if (!isLoading) {
       setIsLoading(true);
       const response = await fetch("/api/contact", {

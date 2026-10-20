@@ -1,9 +1,10 @@
+import type { Metadata } from 'next';
 import Banner from '@/components/Banner/Banner'
 import Description from '@/components/Description/Description'
 import Form from '@/components/Form/Form';
 import styles from './page.module.css'
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Elite Couverture - Couvreur à Perpignan et Pyrénées-Orientales ',
   description: 'Elite Couverture est votre spécialiste en couverture, rénovation et entretien de toitures à Perpignan et alentours. Qualité, réactivité et savoir-faire dans les Pyrénées-Orientales.',
 };

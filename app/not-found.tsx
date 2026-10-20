@@ -1,8 +1,9 @@
+import type { Metadata } from 'next';
 // app/not-found.js
 import Link from 'next/link'
 import styles from '@/app/not-found.module.css' 
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Page non trouvée - Elite Couverture',
   description: 'Oups ! La page que vous recherchez n’existe pas. Retournez à l’accueil de Elite Couverture, couvreur à Perpignan.',
 };

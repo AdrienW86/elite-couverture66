@@ -15,7 +15,6 @@ export default function Header() {
   };
 
   const { ref: ref1, inView: inView1 } = useInView({ triggerOnce: false, threshold: 0.0 });
-  const { ref: ref2, inView: inView2 } = useInView({ triggerOnce: false, threshold: 0.0 });
 
   return (
     <header className={styles.header}>

@@ -1,6 +1,7 @@
+import type { Metadata } from 'next';
 import styles from "./privacy.module.css";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Politique de confidentialité | Elite Couverture",
   description: "Politique de confidentialité du site Elite Couverture",
 };

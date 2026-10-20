@@ -26,9 +26,9 @@ export default function Gallery() {
   ];
 
   const [isOpen, setIsOpen] = useState(false);
-  const [currentImage, setCurrentImage] = useState(null);
+  const [currentImage, setCurrentImage] = useState<string | null>(null);
 
-  const openLightbox = (imageSrc) => {
+  const openLightbox = (imageSrc: string) => {
     setCurrentImage(imageSrc);
     setIsOpen(true);
   };
@@ -53,10 +53,10 @@ export default function Gallery() {
           </div>
         ))}
       </div>
-      {isOpen && (
+      {isOpen && currentImage && (
         <div className={styles.lightboxOverlay} onClick={closeLightbox}>
           <div className={styles.lightboxContent}>
-            <img src={currentImage} alt="Lightbox" className={styles.lightboxImage} />
+            <Image src={currentImage} alt="Vue agrandie de la toiture" width={1400} height={1000} className={styles.lightboxImage} />
           </div>
         </div>
       )}

@@ -1,7 +1,8 @@
+import type { Metadata } from 'next';
 import Gallery from '@/components/Gallery/Gallery'
 import styles from '../page.module.css'
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Galerie de réalisations - Elite Couverture à Perpignan',
   description: 'Découvrez les chantiers réalisés par Elite Couverture à Perpignan : nettoyage, rénovation, pose de toitures dans les Pyrénées-Orientales.',
 };

@@ -1,4 +1,6 @@
-const cardsData = [
+import type { ServiceCard } from '@/types/business';
+
+const cardsData: ServiceCard[] = [
   {
     imageSrc: "/image9.avif",
     imageAlt: "Nettoyage professionnel de toiture avec un ouvrier utilisant un nettoyeur haute pression",

@@ -1,8 +1,9 @@
+import type { Metadata } from 'next';
 import Banner from '@/components/Banner/Banner'
 import Reparation from '@/components/Reparation/Reparation'
 import styles from '@/app/page.module.css'
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Réparation de toiture à Perpignan - Urgence et dépannage Elite Couverture',
   description: 'Elite Couverture intervient rapidement pour la réparation de votre toiture à Perpignan : tuiles cassées, fuites, infiltrations. Service d’urgence dans les Pyrénées-Orientales.',
 };

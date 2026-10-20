@@ -1,8 +1,9 @@
+import type { Metadata } from 'next';
 import Banner from '@/components/Banner/Banner'
 import About from '@/components/About/About'
 import styles from '@/app/page.module.css'
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Qui sommes-nous ? Elite Couverture, experts en couverture dans les Pyrénées-Orientales',
   description: 'Découvrez Elite Couverture, une équipe d’artisans couvreurs passionnés à Perpignan. Qualité, fiabilité et savoir-faire au service de vos projets de toiture dans le 66.',
 };

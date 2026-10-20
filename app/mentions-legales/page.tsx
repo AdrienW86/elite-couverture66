@@ -1,6 +1,7 @@
+import type { Metadata } from 'next';
 import styles from "./mentions.module.css";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Mentions légales | Elite Couverture",
   description: "Mentions légales du site Elite Couverture",
 };
